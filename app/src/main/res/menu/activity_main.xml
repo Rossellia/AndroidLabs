@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/news"
+        android:title="news" />
+    <item android:id="@+id/help"
+        android:title="help" />
+    <item android:id="@+id/orders"
+        android:title="orders" />
+    <item android:id="@+id/top_products"
+        android:onClick="sendMessage"
+        android:title="top products" />
+    <item android:id="@+id/settings"
+    android:onClick="sendSettings"
+    android:title="settings" />
+    <item android:id="@+id/sensors"
+        android:onClick="sendSensors"
+        android:title="sensors" />
+</menu>
+
